@@ -26,10 +26,11 @@ class Passaro:
     TEMPO_ANIMACAO = 5
 
     def __init__(self, x, y):
-        self.x = x
+        self.x = 
         self.y = y
         self.angulo = 0
         self.velocidade = 0
+        
         self.altura = self.y
         self.tempo = 0
         self.contagem_imagem = 0
