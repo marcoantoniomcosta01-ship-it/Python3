@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playpen+Sans:wght@100..800&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Playpen Sans", cursive;
+    --fonte3: "Inter", sans-serif;
+}
+* {margin: 0px; padding: 0px;}
+
+html, body {min-height: 100vh; background-color: darkgray; font-family: var(--fonte1);}
+
+header {
+    background-color: black; color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+header > h1 {font: normal small-caps bolder 6vw var(--fonte3);}
+
+a {color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {text-decoration: underline;}
+
+section {
+    padding: 10vh 0px;
+    padding-left: 30px; 
+    line-height: 2em;
+    font: normal bold 2.5vw var(--fonte2);
+}
+
+section > p {padding: 1em;}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: aqua;
+    color: white;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.363);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.774);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 2em;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.637);
+}
+
+section#img1 {
+    background-image: url(imagens/maxresdefault.jpg);
+    background-position: left left;
+}
+
+section#img2 {
+    background-image: url(imagens/365-O-que-é-tecnologia_.webp);
+}
+
+footer {background-color: black; 
+    color: white;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+footer > p {font-size: 1.2vw;}

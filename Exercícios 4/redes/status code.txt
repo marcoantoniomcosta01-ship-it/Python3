@@ -1,0 +1,9 @@
+100-199 (Informativos): Fornecem informações sobre a requisição.
+
+200-299 (Sucesso): Indicam que a requisição foi bem-sucedida.
+
+300-399 (Redirecionamento): Indicam que o cliente precisa tomar medidas adicionais para completar a requisição (redirecionamento para outra URL).
+
+400-499 (Erro do Cliente): Indicam que houve um erro na requisição feita pelo cliente.
+
+500-599 (Erro do Servidor): Indicam que houve um erro no servidor ao processar a requisição.
